@@ -1,0 +1,11 @@
+.p {
+    color: red;
+
+    &__header {
+        color: black;
+
+        &--active {
+            color: blue;
+        }
+    }
+}

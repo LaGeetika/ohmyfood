@@ -1,0 +1,11 @@
+.p {
+  color: red;
+}
+.p__header {
+  color: black;
+}
+.p__header--active {
+  color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */

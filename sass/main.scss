@@ -1,11 +1,14 @@
-.p {
-    color: red;
+@import "./utils/variables";
+header {
+    padding: 22px 0px 12px;
+    height: 38px;
+    width: 100%;
+    border: 1px solid red;
 
-    &__header {
-        color: black;
-
-        &--active {
-            color: blue;
-        }
+    .div-image {
+        height: 40px;
+        width: 200px;
+        margin: auto;
+        border: 1px solid blue;
     }
 }

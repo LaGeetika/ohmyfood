@@ -1,11 +1,15 @@
-.p {
-  color: red;
+/*-----variables couleurs-----*/
+header {
+  padding: 22px 0px 12px;
+  height: 38px;
+  width: 100%;
+  border: 1px solid red;
 }
-.p__header {
-  color: black;
-}
-.p__header--active {
-  color: blue;
+header .div-image {
+  height: 40px;
+  width: 200px;
+  margin: auto;
+  border: 1px solid blue;
 }
 
 /*# sourceMappingURL=style.css.map */

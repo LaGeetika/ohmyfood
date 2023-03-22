@@ -1,7 +1,7 @@
 /*-----variables couleurs-----*/
 body {
   font-family: roboto, sans-serif;
-  margin: auto;
+  margin: 0px;
 }
 
 header {
@@ -40,7 +40,7 @@ header .div-image {
 
 .introduction {
   width: 100%;
-  height: 285px;
+  height: 280px;
   background-color: #F6F4F4;
   padding-top: 1px;
 }
@@ -80,8 +80,7 @@ header .div-image {
 
 .fonctionnement {
   width: 100%;
-  height: 465px;
-  border: 1px solid red;
+  height: 400px;
 }
 .fonctionnement .fonctionnement__hdeux {
   width: 200px;
@@ -89,7 +88,7 @@ header .div-image {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  margin-top: 40px;
+  margin-top: 42px;
   margin-left: 20px;
 }
 
@@ -99,7 +98,7 @@ header .div-image {
   display: flex;
   flex-direction: row;
   margin: auto;
-  margin-top: 35px;
+  margin-top: 25px;
   border-radius: 20px;
   background-color: #F6F6F6;
   box-shadow: 0px 6px 8px lightgrey;
@@ -149,13 +148,11 @@ header .div-image {
   width: 100%;
   height: 1190px;
   background-color: #F6F4F4;
-  border: 1px solid red;
 }
 
 .article {
   width: 100%;
-  height: 1180px;
-  border: 1px solid blue;
+  height: 1190px;
 }
 .article .article__hdeux {
   width: 200px;
@@ -163,16 +160,15 @@ header .div-image {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  margin-top: 40px;
+  margin-top: 0px;
   margin-left: 20px;
-  border: 1px solid black;
+  padding-top: 55px;
 }
 
 .div-carte-restaurants {
   width: 90%;
   height: 1080px;
   margin-left: 20px;
-  border: 2px solid green;
 }
 .div-carte-restaurants .carte-restaurants {
   width: 90%;
@@ -230,6 +226,45 @@ header .div-image {
   font-size: 25px;
   margin-top: 13px;
   margin-right: 20px;
+}
+
+footer {
+  width: 100%;
+  height: 205px;
+  background-color: #353535;
+}
+footer h4 {
+  width: 110px;
+  height: 30px;
+  margin-top: 0px;
+  padding-top: 25px;
+  margin-left: 20px;
+  font-family: shrikhand, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 19px;
+  line-height: 10px;
+  color: white;
+}
+footer .ul-footer {
+  width: 100%;
+  height: 110px;
+  list-style-type: none;
+  margin-left: -19px;
+  margin-top: -20px;
+}
+footer .li-footer {
+  margin-bottom: 10px;
+}
+footer .li-footer__icone {
+  width: 20px;
+  height: 18px;
+  margin-right: 5px;
+  color: white;
+}
+footer .li-footer__lien {
+  text-decoration: none;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

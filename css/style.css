@@ -1,4 +1,9 @@
 /*-----variables couleurs-----*/
+body {
+  font-family: roboto, sans-serif;
+  margin: auto;
+}
+
 header {
   padding: 22px 0px 12px;
   height: 38px;
@@ -25,7 +30,6 @@ header .div-image {
 .div-recherche .div-recherche__texte {
   width: 109px;
   height: 19px;
-  font-family: roboto, sans sherif;
   font-weight: 500;
   font-size: 16px;
   line-height: 18.75px;
@@ -44,7 +48,6 @@ header .div-image {
   width: 275px;
   height: 68px;
   margin: auto;
-  font-family: roboto, sans-sherif;
   font-weight: 700;
   font-size: 24px;
   line-height: 28.13px;
@@ -55,7 +58,6 @@ header .div-image {
   width: 315px;
   height: 46px;
   margin: auto;
-  font-family: roboto, sans-sherif;
   font-weight: 300;
   font-size: 18px;
   line-height: 22px;
@@ -66,7 +68,6 @@ header .div-image {
   height: 50px;
   margin-left: 100px;
   margin-top: 25px;
-  font-family: roboto, sans-sherif;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -85,7 +86,6 @@ header .div-image {
 .fonctionnement .fonctionnement__hdeux {
   width: 200px;
   height: 31px;
-  font-family: roboto, sans-cherif;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -108,7 +108,6 @@ header .div-image {
 .carte .carte__nombre {
   width: 20px;
   height: 20px;
-  font-family: roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
@@ -131,7 +130,6 @@ header .div-image {
 .carte .carte__paragraphe {
   width: 180px;
   height: 16px;
-  font-family: roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 18px;
@@ -149,13 +147,19 @@ header .div-image {
 
 .restaurants {
   width: 100%;
-  height: 800px;
+  height: 1190px;
+  background-color: #F6F4F4;
   border: 1px solid red;
 }
-.restaurants .restaurants__hdeux {
+
+.article {
+  width: 100%;
+  height: 1180px;
+  border: 1px solid blue;
+}
+.article .article__hdeux {
   width: 200px;
   height: 31px;
-  font-family: roboto, sans-cherif;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -165,52 +169,67 @@ header .div-image {
 }
 
 .div-carte-restaurants {
-  width: 100%;
-  height: 500px;
-  border: 1px solid blue;
-}
-
-.carte-restaurants {
   width: 90%;
-  height: 255px;
+  height: 1080px;
   margin-left: 20px;
+  border: 2px solid green;
+}
+.div-carte-restaurants .carte-restaurants {
+  width: 90%;
+  height: 280px;
   object-fit: cover;
-  border-radius: 0px 0px 20px 20px;
-  border: 1px solid green;
-}
-.carte-restaurants .lien-restaurant {
-  color: black;
-  text-decoration: none;
+  border-radius: 20px 20px 20px 20px;
+  background-color: white;
+  color: #000000;
+  font-weight: 700;
+  font-size: 18;
   line-height: 5px;
-  font-family: roboto, sans-serif;
-  font-size: 16px;
+  text-decoration: none;
 }
-.carte-restaurants .carte-restaurants__image {
+.div-carte-restaurants .carte-restaurants__nouveau {
+  position: absolute;
+  width: 83px;
+  height: 18px;
+  background-color: #99E2D0;
+  text-align: center;
+  padding-top: 13px;
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 265px;
+  margin-top: 13px;
+  color: #008786;
+  box-shadow: 0px 2px 4px #000000;
+  border-radius: 2px;
+}
+.div-carte-restaurants .carte-restaurants__image {
   width: 100%;
   height: 180px;
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
 }
-.carte-restaurants .carte-restaurants__info {
-  width: 360px;
-  height: 60px;
+.div-carte-restaurants .carte-restaurants__info {
+  width: 99.5%;
+  height: 65px;
   display: flex;
   flex-direction: row;
-  border: 1px solid magenta;
+  margin-bottom: 20px;
+  border: 1px solid #F6F4F4;
+  border-top: none;
+  box-shadow: 1px 2px 8px lightgray;
+  border-radius: 0px 0px 20px 20px;
+  background-color: white;
 }
-.carte-restaurants .carte-restaurants__texte {
-  width: 170px;
+.div-carte-restaurants .carte-restaurants__texte {
+  width: 100%;
   height: 60px;
   margin-left: 10px;
-  border: 1px solid yellow;
 }
-.carte-restaurants .div-icone__coeur {
+.div-carte-restaurants .carte-restaurants__icone {
   width: 20px;
   height: 20px;
-  font-size: 18px;
+  font-size: 25px;
   margin-top: 13px;
-  margin-left: 150px;
-  border: 1px solid greenyellow;
+  margin-right: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

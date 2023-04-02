@@ -1,0 +1,39 @@
+.footer {
+    width: 100%;
+    height: 205px;
+    background-color: #353535;
+    margin-top: 0px;
+
+    &-titre {
+        width: 110px;
+        height: 30px;
+        margin-top: 0px;
+        padding-top: 30px;
+        margin-left: 20px;
+    }
+
+    &-liste {
+        width: 100%;
+        height: 110px;
+        list-style-type: none;
+        margin-left: 20px;
+        margin-top: 35px;
+
+        &__element {
+            margin-bottom: 10px;
+
+            &-icone {
+                width: 20px;
+                height: 10px;
+                font-size: 0.8em;
+                margin-right: 05px;
+                color: white;
+            }
+
+            &-lien {
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}

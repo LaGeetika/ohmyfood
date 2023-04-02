@@ -1,0 +1,198 @@
+
+.recherche {
+    width: 100%;
+    height: 50px;
+    box-shadow: inset 0px 2px 4px darkgray;
+    background-color: #EAEAEA;
+    margin-top: 30px;
+
+    &__icon {
+        width: 20px;
+        height: 20px;
+        margin-left: 120px;
+        margin-top: 16px;
+    }
+
+    &__texte {
+        width: 109px;
+        height: 19px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18.75px;
+        color: #353535;
+        background-color: #EAEAEA;
+        border: #EAEAEA;
+    }
+}
+
+.introduction {
+    width: 100%;
+    height: 280px;
+    background-color: #F6F4F4;
+    padding-top: 1px; 
+
+    &__titre {
+        width: 275px;
+        height: 68px;
+        margin: auto;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28.13px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    &__paragraphe {
+        width: 315px;
+        height: 46px;
+        margin: auto;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    &__boutton {
+        width: 218px;
+        height: 50px;
+        margin-left: 100px;
+        margin-top: 25px;
+    }
+}
+
+.fonctionnement {
+    width: 100%;
+    height: 400px;
+
+    &__titre {
+        width: 200px;
+        height: 31px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: 42px;
+        margin-left: 20px;
+    }
+}
+
+.carte-liste-conteneur {
+    width: 100%;
+    height: 305px;
+    
+    & .carte-liste {
+        width: 340px;
+        height: 73px;
+    }
+}
+
+.restaurants {
+    width: 100%;
+    height: 1260px;
+    background-color: #F6F4F4;
+
+    &__titre {
+        width: 200px;
+        height: 31px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        padding-top: 55px;
+    }
+
+    &__cartes {
+        width: 90%;
+        height: 1080px;
+        margin-left: 20px;
+    
+        & .carte-cliquable {
+            width: 90%;
+            height: 280px;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+
+/*-----médias-queries-----*/
+
+@media screen and (min-width:768px)
+{
+    .div-recherche {
+        .div-recherche__icon {
+            margin-left: 300px;
+        }
+    }
+
+    .introduction {
+        height: 210px;
+
+        .introduction__hun {
+            width: 450px;
+            height: 42px;
+        }
+
+        .introduction__paragraphe {
+            width: 700px;
+        }
+
+        .introduction__boutton {
+            margin-left: 260px;
+            margin-top: 0px;
+        }
+    }
+
+    .fonctionnement {
+        height: 155px;
+
+        .fonctionnement__hdeux {
+            margin-left: 100px;
+            margin-top: 20px;
+        }
+    }
+
+    .carte-global {
+        display: flex;
+        flex-direction: row;
+        margin-left: 100px;
+        width: 550px;
+        height: 90px;
+        border: 1px solid blue;
+
+        .carte {
+            width: 175px;
+            height: 40px;
+            margin-left: 8px;
+            border: red;            
+        }
+
+        .carte__nombre {
+            width: 20px;
+            height: 15px;
+            margin-left: -5px;
+            margin-top: 11px;
+            font-size: 10px;
+        }
+
+        .carte__icone {
+            font-size: 10px;
+            margin-left: 10px;
+            margin-top: 15px;
+            width: 0px;
+        }
+
+        .carte__icone--violet {
+            font-size: 10px;
+            margin-left: 10px;
+            margin-top: 15px;
+            width: 0px;
+        }
+
+        .carte__paragraphe {
+            font-size: 10px;
+            margin-top: 11px;
+        }
+    }
+}

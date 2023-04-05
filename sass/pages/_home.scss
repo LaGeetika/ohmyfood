@@ -97,7 +97,7 @@
         font-size: 24px;
         line-height: 28px;
         margin-top: 0px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         margin-left: 20px;
         padding-top: 55px;
     }
@@ -108,9 +108,12 @@
         margin-left: 20px;
     
         & .carte-cliquable {
-            width: 90%;
-            height: 280px;
-            margin-bottom: 15px;
+            width: 100%;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+            position: relative;
         }
     }
 }
@@ -120,8 +123,8 @@
 
 @media screen and (min-width:768px)
 {
-    .div-recherche {
-        .div-recherche__icon {
+    .recherche {
+        .recherche__icon {
             margin-left: 300px;
         }
     }
@@ -129,7 +132,7 @@
     .introduction {
         height: 210px;
 
-        .introduction__hun {
+        .introduction__titre {
             width: 450px;
             height: 42px;
         }
@@ -145,30 +148,29 @@
     }
 
     .fonctionnement {
-        height: 155px;
+        height: 126px;
 
-        .fonctionnement__hdeux {
-            margin-left: 100px;
-            margin-top: 20px;
+        .fonctionnement__titre {
+            margin-left: 90px;
+            margin-top: 24px;
         }
     }
 
-    .carte-global {
+    .carte-liste-conteneur {
         display: flex;
         flex-direction: row;
-        margin-left: 100px;
-        width: 550px;
+        margin-left: 90px;
+        width: 570px;
         height: 90px;
-        border: 1px solid blue;
 
-        .carte {
+        .carte-liste {
             width: 175px;
             height: 40px;
             margin-left: 8px;
             border: red;            
         }
 
-        .carte__nombre {
+        .carte-liste__nombre {
             width: 20px;
             height: 15px;
             margin-left: -5px;
@@ -176,23 +178,70 @@
             font-size: 10px;
         }
 
-        .carte__icone {
+        .carte-liste__icone {
             font-size: 10px;
             margin-left: 10px;
             margin-top: 15px;
             width: 0px;
         }
 
-        .carte__icone--violet {
+        .carte-liste__icone--violet {
             font-size: 10px;
             margin-left: 10px;
             margin-top: 15px;
             width: 0px;
         }
 
-        .carte__paragraphe {
+        .carte-liste__paragraphe {
             font-size: 10px;
             margin-top: 11px;
+            font-weight: bold;
+        }
+    }
+
+    .restaurants {
+        height: 700px;
+
+        .restaurants__titre {
+            margin-left: 90px;
+            padding-top: 15px;
+        }
+    }
+
+    .restaurants__cartes {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-between;
+        height: 450px;
+        width: 640px;
+        margin-top: 23px;
+        margin-left: 90px;
+        border: 1px solid red;
+
+        .carte-cliquable {
+            width: 42%;
+            height: 200px;
+            margin-left: 0px;
+            margin-right: 50px;
+            border: 1px solid blue;
+        }
+
+        .carte-cliquable__nouveau {
+            left: 180px;
+        }
+
+        .carte-cliquable__image {
+            height: 90px;
+            width: 100%;
+        }
+
+        .carte-cliquable__info {
+            width: 100%;
+        }
+
+        .carte-cliquable__texte {
+            font-size: 0.8em;
         }
     }
 }

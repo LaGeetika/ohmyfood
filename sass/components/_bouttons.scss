@@ -13,4 +13,52 @@
     width: 20px;
     height: 20px;
     font-size: 25px;
+}
+
+.coeur {
+    padding: 10px 22px 10px 10px;
+}
+
+.coeur-icon {
+    transform: scale(0.75, 0.85);
+    font-size: 1.9em;
+    &--vide {
+        position: absolute;
+        z-index:2;
+        color: lighten(black, 20%);
+        opacity:1;
+        transition: opacity 1s ease-in-out;
+        &:active, &:hover {
+            opacity:0;
+        }
     }
+
+    &--vide:active + &--plein::after, &--vide:hover + &--plein::after {
+        transform: translateY(-100%) rotate(500deg);
+    }
+
+    &--plein {
+        position: relative;
+        z-index:1;
+        background: linear-gradient(45deg, #9356DC, #FF79DA);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;   
+        position : relative;
+        overflow: hidden;
+        &::after {
+            content: "";
+            z-index:-1;
+            position: absolute;
+            bottom: -50%;
+            left: -50%;
+            height: 200%;
+            width: 200%;
+            background: #fff;
+            border-radius: 25%;
+            transform: translateY(0) rotate(0deg);
+            transition: transform 1.5s ease-out;
+        }
+    }
+}
+

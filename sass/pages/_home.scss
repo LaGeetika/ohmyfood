@@ -87,7 +87,7 @@
 
 .restaurants {
     width: 100%;
-    height: 1260px;
+    height: 1200px;
     background-color: #F6F4F4;
 
     &__titre {
@@ -97,7 +97,7 @@
         font-size: 24px;
         line-height: 28px;
         margin-top: 0px;
-        margin-bottom: 40px;
+        margin-bottom: 50px;
         margin-left: 20px;
         padding-top: 55px;
     }
@@ -112,7 +112,7 @@
             height: 250px;
             display: flex;
             flex-direction: column;
-            margin-top: 20px;
+            margin-top: 12px;
             position: relative;
         }
     }

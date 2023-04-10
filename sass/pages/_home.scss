@@ -124,21 +124,25 @@
 @media screen and (min-width:768px)
 {
     .recherche {
+        margin-top: 40px;
+
         .recherche__icon {
             margin-left: 300px;
         }
     }
 
     .introduction {
-        height: 210px;
+        height: 180px;
 
         .introduction__titre {
             width: 450px;
             height: 42px;
+            margin-top: 20px;
         }
 
         .introduction__paragraphe {
             width: 700px;
+            font-size: 1em;
         }
 
         .introduction__boutton {
@@ -148,11 +152,12 @@
     }
 
     .fonctionnement {
-        height: 126px;
+        height: 110px;
 
         .fonctionnement__titre {
             margin-left: 90px;
             margin-top: 24px;
+            font-size: 1.2em;
         }
     }
 
@@ -161,13 +166,12 @@
         flex-direction: row;
         margin-left: 90px;
         width: 570px;
-        height: 90px;
+        height: 60px;
 
         .carte-liste {
             width: 175px;
             height: 40px;
-            margin-left: 8px;
-            border: red;            
+            margin-left: 8px;           
         }
 
         .carte-liste__nombre {
@@ -200,11 +204,12 @@
     }
 
     .restaurants {
-        height: 700px;
+        height: 410px;
 
         .restaurants__titre {
             margin-left: 90px;
             padding-top: 15px;
+            font-size: 1.2em;
         }
     }
 
@@ -213,22 +218,25 @@
         flex-direction: row;
         flex-wrap: wrap;
         align-content: space-between;
-        height: 450px;
-        width: 640px;
-        margin-top: 23px;
+        height: 353px;
+        width: 630px;
+        margin-top: -36px;
         margin-left: 90px;
-        border: 1px solid red;
 
         .carte-cliquable {
             width: 42%;
-            height: 200px;
+            height: 158px;
             margin-left: 0px;
             margin-right: 50px;
-            border: 1px solid blue;
         }
 
         .carte-cliquable__nouveau {
-            left: 180px;
+            left: 190px;
+            top: 8px;
+            height: 20px;
+            width: 65px;
+            font-size: 12px;
+            padding-top: 8px;
         }
 
         .carte-cliquable__image {
@@ -242,6 +250,51 @@
 
         .carte-cliquable__texte {
             font-size: 0.8em;
+        }
+    }
+
+    .footer {
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding-top: 5px;
+
+        .footer-liste:nth-child(2) {
+            order: 1;
+        }
+
+        .footer-titre:nth-child(1) {
+            order: 2;
+        }
+    }
+
+    .footer-titre {
+        font-size: 0.7em;
+        height: 60px;
+        width: 80px;
+        margin-right: 20px;
+    }
+
+    .footer-liste {
+        display: flex;
+        flex-direction: row;
+        height: 30px;
+        width: 430px;
+        margin-top: 27px;
+
+        .footer-liste__element {
+            font-size: 0.7em;
+
+            &-icone {
+                font-size: 0.7em;
+                margin-right: 0px;
+                width: 15px;
+            }
+
+            &-lien {
+                margin-right: 10px;
+            }
         }
     }
 }

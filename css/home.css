@@ -11,6 +11,7 @@
   height: 20px;
   margin-left: 120px;
   margin-top: 16px;
+  color: #353535;
 }
 .recherche__texte {
   width: 109px;
@@ -33,7 +34,7 @@
   width: 275px;
   height: 68px;
   margin: auto;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 24px;
   line-height: 28.13px;
   text-align: center;
@@ -47,9 +48,10 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
+  color: #353535;
 }
 .introduction__boutton {
-  width: 218px;
+  width: 225px;
   height: 50px;
   margin-left: 100px;
   margin-top: 25px;
@@ -57,7 +59,7 @@
 
 .fonctionnement {
   width: 100%;
-  height: 400px;
+  height: 390px;
 }
 .fonctionnement__titre {
   width: 200px;
@@ -67,6 +69,7 @@
   line-height: 28px;
   margin-top: 42px;
   margin-left: 20px;
+  margin-bottom: 25px;
 }
 
 .carte-liste-conteneur {
@@ -74,13 +77,13 @@
   height: 305px;
 }
 .carte-liste-conteneur .carte-liste {
-  width: 340px;
+  width: 375px;
   height: 73px;
 }
 
 .restaurants {
   width: 100%;
-  height: 1200px;
+  height: 1305px;
   background-color: #F6F4F4;
 }
 .restaurants__titre {
@@ -139,6 +142,7 @@
     margin-left: 90px;
     margin-top: 24px;
     font-size: 1.2em;
+    margin-bottom: 4px;
   }
   .carte-liste-conteneur {
     display: flex;
@@ -151,6 +155,7 @@
     width: 175px;
     height: 40px;
     margin-left: 8px;
+    margin-right: 15px;
   }
   .carte-liste-conteneur .carte-liste__nombre {
     width: 20px;
@@ -177,7 +182,7 @@
     font-weight: bold;
   }
   .restaurants {
-    height: 410px;
+    height: 430px;
   }
   .restaurants .restaurants__titre {
     margin-left: 90px;
@@ -189,16 +194,17 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-content: space-between;
-    height: 353px;
-    width: 630px;
+    height: 370px;
+    width: 660px;
     margin-top: -36px;
     margin-left: 90px;
   }
   .restaurants__cartes .carte-cliquable {
-    width: 42%;
+    width: 43%;
     height: 158px;
     margin-left: 0px;
-    margin-right: 50px;
+    margin-right: 43px;
+    margin-bottom: 0px;
   }
   .restaurants__cartes .carte-cliquable__nouveau {
     left: 190px;
@@ -209,14 +215,20 @@
     padding-top: 8px;
   }
   .restaurants__cartes .carte-cliquable__image {
-    height: 90px;
+    height: 110px;
     width: 100%;
   }
   .restaurants__cartes .carte-cliquable__info {
     width: 100%;
+    height: 50px;
   }
   .restaurants__cartes .carte-cliquable__texte {
     font-size: 0.8em;
+    margin-top: 5px;
+    line-height: 20px;
+  }
+  .restaurants__cartes .carte-cliquable__icone {
+    margin-top: 7px;
   }
   .footer {
     height: 60px;

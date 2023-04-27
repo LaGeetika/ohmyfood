@@ -123,3 +123,114 @@
 .footer {
     margin-top: -60px;
 }
+
+
+/*----------medias-queries----------*/
+
+@media screen and (min-width:768px)
+{
+    .header__entete-image {
+        margin-left: 240px;
+        margin-bottom: 20px;
+    }
+
+    .information-restaurant {
+        width: 75%;
+        margin-left: 93px;
+        margin-top: 350px;
+        border-radius: 20px 20px 0px 0px;
+
+        &__entete {
+            margin-left: 120px;
+        }
+
+        &__commande {
+            margin-left: 75px;
+        }
+    }
+
+    .menu-card {
+        margin-left: 75px;
+    }
+
+    .footer {
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding-top: 5px;
+    
+        .footer-liste:nth-child(2) {
+            order: 1;
+        }
+    
+        .footer-titre:nth-child(1) {
+            order: 2;
+        }
+    }
+    
+    .footer-titre {
+        font-size: 0.7em;
+        height: 60px;
+        width: 80px;
+        margin-right: 20px;
+    }
+    
+    .footer-liste {
+        display: flex;
+        flex-direction: row;
+        height: 30px;
+        width: 430px;
+        margin-top: 27px;
+    
+        .footer-liste__element {
+            font-size: 0.7em;
+    
+            &-icone {
+                font-size: 0.7em;
+                margin-right: 0px;
+                width: 15px;
+            }
+    
+            &-lien {
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+
+/*----------medias-queries----------*/
+
+@media screen and (min-width:992px)
+{
+    .header__entete-image {
+        margin-left: 350px;
+    }
+
+    .information-restaurant {
+        width: 80%;
+        margin-left: 100px;
+        margin-top: 360px;
+
+        &__entete {
+            margin-left: 220px;
+        }
+    }
+
+    .menu-card {
+        margin-left: 85px;
+
+        &__plat {
+            width: 600px;
+
+            &-prix {
+                left: 555px;
+            }
+        }
+    }
+
+    .information-restaurant__commande {
+        margin-left: 190px;
+    }
+}

@@ -311,3 +311,61 @@
         }
     }
 }
+
+
+@media screen and (min-width:992px)
+{
+    .recherche {
+        .recherche__icon {
+            margin-left: 425px;
+        }
+    }
+    .recherche__texte {
+        margin-left: 0px;
+    }
+
+    .introduction {
+        .introduction__boutton {
+            margin-left: 382px;
+        }
+    }
+
+    .fonctionnement {
+        height: 120px;
+
+        &__titre {
+            padding-left: 20px;
+        }
+    }
+
+    .carte-liste-conteneur {
+        padding-left: 20px;
+        width: 810px;
+
+        .carte-liste {
+            width: 237px;
+            height: 45px;
+        }
+    }
+
+    .restaurants {
+        .restaurants__titre {
+            padding-left: 20px;
+        }
+
+        .restaurants__cartes {
+            padding-left: 20px;
+            width: 880px;
+        }
+
+        .carte-cliquable {
+            margin-right: 60px;
+            width: 41%;
+            height: 163px;
+
+            &__nouveau {
+                left: 270px;
+            }
+        }
+    }
+}

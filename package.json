@@ -4,7 +4,7 @@
   "description": "test",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./css/global.css ./sass/pages/home.scss:./css/home.css ./sass/pages/restaurants.scss:./css/restaurants.css"
+    "sass": "sass --watch ./src/sass/main.scss:./src/css/global.css ./src/sass/pages/home.scss:./src/css/home.css ./src/sass/pages/restaurants.scss:./src/css/restaurants.css"
   },
   "author": "",
   "license": "ISC"

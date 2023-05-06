@@ -1,38 +1,56 @@
 .footer {
     width: 100%;
-    height: 190px;
+    height: 186px;
+    padding: 22px 25px 22px 25px;
     background-color: #353535;
-    margin-top: 0px;
 
     &-titre {
-        width: 110px;
-        height: 30px;
-        margin-top: 0px;
-        padding-top: 30px;
-        margin-left: 20px;
+        width: 138px;
+        height: 27px;
+        font-family: shrikhand;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 18px;
+        line-height: 26px;
+        color: #FFFFFF;
     }
 
     &-liste {
         width: 100%;
         height: 110px;
         list-style-type: none;
-        margin-left: 20px;
-        margin-top: 35px;
+        margin-top: 18px;
 
         &__element {
-            margin-bottom: 10px;
+            margin-bottom: 7px;
 
             &-icone {
-                width: 20px;
-                height: 10px;
-                font-size: 0.8em;
-                margin-right: 05px;
-                color: white;
+                width: 11px;
+                height: 13px;
+                color: #FFFFFF;
             }
 
             &-lien {
                 text-decoration: none;
-                color: white;
+                width: 168px;
+                height: 19px;
+                margin-left: 10px;
+                font-weight: 500;
+                font-family: roboto;
+                font-size: 16px;
+                line-height: 19px;
+                color: #FFFFFF;
+            }
+
+            &-petitlien {
+                text-decoration: none;
+                width: 130px;
+                height: 20px;
+                font-family: roboto;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #FFFFFF;
             }
         }
     }

@@ -1,39 +1,48 @@
 .carte-cliquable {
     object-fit: cover;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 15px;
     background-color: white;
     color: #000000;
+    box-shadow: 0px 4px 15px #000000 10%;
     font-weight: 700;
     line-height: 5px;
     text-decoration: none;
-    margin-bottom: 38px;
+    margin-bottom: 15px;
 
     &__nouveau {
         position: absolute;
-        left: 290px;
+        right: 15px;
         top: 15px;
         width: 80px;
-        height: 30px;
+        height: 29px;
         background-color: #99E2D0;
-        text-align: center;
-        padding-top: 13px;
-        padding-bottom: 13px;
-        font-weight: 500;
-        font-size: 16px;
-        color: #008786;
-        box-shadow: 0px 2px 4px #000000;
+        box-shadow: 0px 2px 4px #000000 15%;
         border-radius: 2px;
+
+        &-texte {
+            width: 61px;
+            height: 16px;
+            position: relative;
+            top: 7px;
+            left: 9px;
+            font-family: roboto;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            color: #008766;
+        }
     }
 
     &__image {
         width: 100%;
-        height: 190px;
+        height: 170px;
         object-fit: cover;
         border-radius: 20px 20px 0px 0px;
     }
 
     &__info {
-        width: 99.5%;
+        width: 100%;
         height: 80px;
         display: flex;
         flex-direction: row;
@@ -53,6 +62,26 @@
         margin-bottom: 15px;
         line-height: 25px;
         font-weight: 300;
+
+        &-titre {
+            width: 267px;
+            height: 20px;
+            font-family: roboto;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 21px;
+            margin-bottom: 5px;
+        }
+
+        &-paragraphe {
+            width: 247px;
+            height: 24px;
+            font-family: roboto;
+            font-weight: 300;
+            font-size: 17px;
+            line-height: 20px;
+            padding-bottom: 12px;
+        }
     }
 
     &__icone {
@@ -60,7 +89,6 @@
         margin-right: 30px;
         width: 22px;
         height: 21px;
-        color: #101010;
     }
 }
 
@@ -69,10 +97,10 @@
     flex-direction: row;
     margin: auto;
     margin-top: 07px;
-    margin-bottom: 22px;
+    margin-bottom: 24px;
     border-radius: 20px;
     background-color: #F6F6F6;
-    box-shadow: 0px 5px 8px lightgrey;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.15);
     border: 1px solid #F6F6F6;
     &:hover {
         background-color: #FCFBFB;
@@ -80,8 +108,8 @@
     }
 
     &__nombre {
-        width: 20px;
-        height: 20px;
+        width: 24px;
+        height: 24px;
         font-weight: 500;
         font-size: 14px;
         text-align: center;
@@ -89,12 +117,13 @@
         border: 1px solid #9356DC;
         margin-top: 25px;
         margin-left: -11px;
+        padding-top: 2px;
         border-radius: 50%;
         background-color: #9356DC;
     }
 
     &__icone {
-        width: 15px;
+        width: 13px;
         height: 20px;
         font-size: 20px;
         color: #7E7E7E;
@@ -104,10 +133,10 @@
     }
 
     &__paragraphe {
-        width: 200px;
+        width: 211px;
         height: 16px;
         font-weight: 500;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 18px;
         margin-left: 20px;
         margin-top: 25px;

@@ -24,6 +24,7 @@
         line-height: 18.75px;
         margin-left: 13px;
         color: #353535;
+        display: inline-block;
     }
 }
 
@@ -58,7 +59,7 @@
 
     &__boutton {
         margin-top: 27px;
-        width: 225px;
+        width: 218px;
         height: 50px;
         margin-bottom: 57px;
     }
@@ -66,17 +67,18 @@
 
 .fonctionnement {
     width: 100%;
-    height: 390px;
+    height: 400px;
 
     &__titre {
-        width: 200px;
+        width: 275px;
         height: 31px;
         font-weight: 700;
         font-size: 24px;
         line-height: 28px;
-        margin-top: 42px;
+        margin-top: 48px;
         margin-left: 20px;
-        margin-bottom: 25px;
+        margin-right: 80px;
+        margin-bottom: 31px;
     }
 }
 
@@ -85,36 +87,36 @@
     height: 305px;
     
     & .carte-liste {
-        width: 375px;
-        height: 73px;
+        width: 322px;
+        height: 72px;
     }
 }
 
 .restaurants {
     width: 100%;
-    height: 1305px;
+    height: 1220px;
     background-color: #F6F4F4;
 
     &__titre {
-        width: 200px;
+        width: 275px;
         height: 31px;
         font-weight: 700;
         font-size: 24px;
         line-height: 28px;
         margin-top: 0px;
-        margin-bottom: 50px;
+        margin-bottom: 47px;
         margin-left: 20px;
         padding-top: 55px;
     }
 
     &__cartes {
-        width: 90%;
+        width: 100%;
         height: 1080px;
         margin-left: 20px;
     
         & .carte-cliquable {
-            width: 100%;
-            height: 250px;
+            width: 340px;
+            height: 251px;
             display: flex;
             flex-direction: column;
             margin-top: 12px;

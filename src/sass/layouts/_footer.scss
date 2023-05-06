@@ -69,7 +69,7 @@
         }
     
         #espace-partenaire {
-            margin-right: 23px;
+            margin-right: 2px;
         }
     
         .footer-titre:nth-child(1) {
@@ -82,6 +82,7 @@
         height: 60px;
         width: 80px;
         margin-right: 20px;
+        margin-top: 23px;
     }
     
     .footer-liste {
@@ -95,14 +96,22 @@
             font-size: 0.7em;
     
             &-icone {
-                font-size: 0.7em;
-                margin-right: 0px;
+                font-size: 0.6em;
+                margin-right: 2px;
                 width: 15px;
+                width: 9px;
             }
     
             &-lien {
                 margin-right: 10px;
+                font-size: 0.9em;
+                margin-left: 0px;
+            }
+
+            &-petitlien {
+                font-size: 0.9em;
+                margin-left: 10px;
             }
         }
-    }    
+    }
 }

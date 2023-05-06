@@ -3,14 +3,9 @@
     height: 63px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
 
-    &__image_bloc {
-        position: relative;
-        text-align: center;
-        top: 14px;
-    }
-
     &__image {
         height: 44px;
         width: 162px;
+        margin: 14px 108px 5px 105px;
     }
 }

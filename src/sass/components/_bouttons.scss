@@ -1,12 +1,18 @@
 .btn--violet {
-    font-weight: 500;
-    font-size: 1em;
-    line-height: 19px;
-    text-align: center;
-    color: white;
     background : linear-gradient(#FF79DA, #9356DC);
     border-radius: 25px 25px 25px 25px;
     border: #FF79DA;
+
+    .introduction__boutton-paragraphe {
+        width: 180px;
+        height: 24px;
+        font-family: roboto;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+        color: #FFFFFF;
+        margin: 13px 19px 13px 19px;
+    }
 }
 
 .btn--coeur {

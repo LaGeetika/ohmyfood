@@ -4,25 +4,21 @@
   height: 50px;
   background-color: #EAEAEA;
 }
-.recherche__bloc {
-  text-align: center;
-  position: relative;
-  top: 15.5px;
-}
 .recherche__icon {
   width: 12px;
   height: 16px;
   color: #353535;
+  margin: 17px 17px 17px 118px;
 }
 .recherche__texte {
   width: 109px;
   height: 19px;
   font-weight: 500;
   font-size: 16px;
+  font-style: normal;
   line-height: 18.75px;
-  margin-left: 13px;
   color: #353535;
-  display: inline-block;
+  margin: 15px 118px 15px 0px;
 }
 
 .introduction {
@@ -116,36 +112,56 @@
 
 /*-----médias-queries-----*/
 @media screen and (min-width: 768px) {
+  .header {
+    height: 80px;
+  }
+  .header__image {
+    width: 200px;
+    height: 34px;
+    margin: 25px 284px 35px 284px;
+  }
   .recherche {
-    margin-top: 40px;
+    height: 50px;
   }
   .recherche .recherche__icon {
     margin-left: 300px;
   }
   .introduction {
-    height: 180px;
+    height: 148px;
   }
   .introduction .introduction__titre {
-    width: 450px;
-    height: 42px;
-    margin-top: 20px;
+    width: 645px;
+    height: 47px;
+    padding-top: 20px;
+    font-size: 22px;
   }
   .introduction .introduction__paragraphe {
-    width: 700px;
-    font-size: 1em;
+    width: 531px;
+    height: 46px;
+    font-size: 10px;
+    padding-top: 10px;
   }
   .introduction .introduction__boutton {
-    margin-left: 260px;
-    margin-top: 0px;
+    width: 180px;
+    height: 40px;
+    margin-top: 15px;
+  }
+  .introduction .introduction__boutton-paragraphe {
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 0px;
+    margin-top: 10px;
   }
   .fonctionnement {
-    height: 110px;
+    height: 115px;
   }
   .fonctionnement .fonctionnement__titre {
+    width: 275px;
+    height: 31px;
     margin-left: 90px;
-    margin-top: 24px;
-    font-size: 1.2em;
-    margin-bottom: 4px;
+    margin-top: 35px;
+    font-size: 1.1em;
+    margin-bottom: 10px;
   }
   .carte-liste-conteneur {
     display: flex;
@@ -165,17 +181,18 @@
     height: 15px;
     margin-left: -5px;
     margin-top: 11px;
-    font-size: 10px;
+    font-size: 0.5em;
   }
   .carte-liste-conteneur .carte-liste__icone {
     font-size: 10px;
-    margin-left: 10px;
+    margin-left: 15px;
+    margin-right: 0px;
     margin-top: 15px;
-    width: 0px;
   }
   .carte-liste-conteneur .carte-liste__icone--violet {
     font-size: 10px;
-    margin-left: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
     margin-top: 15px;
     width: 0px;
   }
@@ -183,42 +200,52 @@
     font-size: 10px;
     margin-top: 11px;
     font-weight: bold;
+    margin-left: 15px;
   }
   .restaurants {
-    height: 430px;
+    height: 370px;
   }
   .restaurants .restaurants__titre {
+    width: 268px;
+    height: 28px;
     margin-left: 90px;
     padding-top: 15px;
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
   .restaurants__cartes {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: space-between;
-    height: 370px;
-    width: 660px;
+    height: 315px;
+    width: 645px;
     margin-top: -36px;
     margin-left: 90px;
   }
   .restaurants__cartes .carte-cliquable {
-    width: 43%;
-    height: 158px;
+    width: 42%;
+    height: 138px;
     margin-left: 0px;
-    margin-right: 43px;
+    margin-right: 50px;
     margin-bottom: 0px;
   }
   .restaurants__cartes .carte-cliquable__nouveau {
-    left: 190px;
+    right: 10px;
     top: 8px;
-    height: 20px;
-    width: 65px;
+    height: 17px;
+    width: 45px;
     font-size: 12px;
     padding-top: 8px;
   }
+  .restaurants__cartes .carte-cliquable__nouveau-texte {
+    width: 40px;
+    height: 15px;
+    font-size: 0.8em;
+    top: -9px;
+    left: 2px;
+  }
   .restaurants__cartes .carte-cliquable__image {
-    height: 110px;
+    height: 90px;
     width: 100%;
   }
   .restaurants__cartes .carte-cliquable__info {
@@ -226,23 +253,69 @@
     height: 50px;
   }
   .restaurants__cartes .carte-cliquable__texte {
+    width: 82%;
+    height: 40px;
     font-size: 0.8em;
     margin-top: 5px;
-    line-height: 20px;
+    line-height: 17px;
+  }
+  .restaurants__cartes .carte-cliquable__texte-titre {
+    font-size: 1em;
+    width: 160px;
+    height: 18px;
+    line-height: 8px;
+    margin-bottom: 0px;
+    margin-top: 8px;
+  }
+  .restaurants__cartes .carte-cliquable__texte-paragraphe {
+    font-size: 0.9em;
+    width: 160px;
+    line-height: 6px;
+    margin-bottom: 8px;
   }
   .restaurants__cartes .carte-cliquable__icone {
-    margin-top: 7px;
+    margin-top: 15px;
+    margin-right: 0px;
+    font-size: 1.1em;
   }
 }
 @media screen and (min-width: 992px) {
+  .header {
+    height: 96px;
+  }
+  .header__image {
+    width: 200px;
+    height: 34px;
+    margin: 30px 621px 32px 619px;
+  }
   .recherche .recherche__icon {
-    margin-left: 425px;
+    margin: 17px 7px 17px 651px;
   }
-  .recherche__texte {
-    margin-left: 0px;
+  .recherche .recherche__texte {
+    margin: 15px 651px 15px 0px;
   }
-  .introduction .introduction__boutton {
-    margin-left: 382px;
+  .introduction__titre {
+    width: 645px;
+    height: 47px;
+    font-weight: 700;
+    font-size: x-large;
+    text-align: center;
+    border: 1px solid red;
+  }
+  .introduction__paragraphe {
+    width: 131px;
+    height: 46px;
+    font-weight: 300;
+    font-size: 2px;
+    border: 1px solid blue;
+    display: inline-block;
+  }
+  .introduction__boutton {
+    width: 218px;
+    height: 50px;
+    margin-right: 411px;
+    margin-left: 811px;
+    margin-top: 50px;
   }
   .fonctionnement {
     height: 120px;

@@ -25,14 +25,19 @@ h4 {
 }
 
 .btn--violet {
-  font-weight: 500;
-  font-size: 1em;
-  line-height: 19px;
-  text-align: center;
-  color: white;
   background: linear-gradient(#FF79DA, #9356DC);
   border-radius: 25px 25px 25px 25px;
   border: #FF79DA;
+}
+.btn--violet .introduction__boutton-paragraphe {
+  width: 180px;
+  height: 24px;
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+  margin: 13px 19px 13px 19px;
 }
 
 .btn--coeur {
@@ -292,7 +297,7 @@ h4 {
     order: 1;
   }
   .footer #espace-partenaire {
-    margin-right: 23px;
+    margin-right: 2px;
   }
   .footer .footer-titre:nth-child(1) {
     order: 2;
@@ -302,6 +307,7 @@ h4 {
     height: 60px;
     width: 80px;
     margin-right: 20px;
+    margin-top: 23px;
   }
   .footer-liste {
     display: flex;
@@ -314,12 +320,19 @@ h4 {
     font-size: 0.7em;
   }
   .footer-liste .footer-liste__element-icone {
-    font-size: 0.7em;
-    margin-right: 0px;
+    font-size: 0.6em;
+    margin-right: 2px;
     width: 15px;
+    width: 9px;
   }
   .footer-liste .footer-liste__element-lien {
     margin-right: 10px;
+    font-size: 0.9em;
+    margin-left: 0px;
+  }
+  .footer-liste .footer-liste__element-petitlien {
+    font-size: 0.9em;
+    margin-left: 10px;
   }
 }
 .header {
@@ -327,14 +340,10 @@ h4 {
   height: 63px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
 }
-.header__image_bloc {
-  position: relative;
-  text-align: center;
-  top: 14px;
-}
 .header__image {
   height: 44px;
   width: 162px;
+  margin: 14px 108px 5px 105px;
 }
 
 /*# sourceMappingURL=global.css.map */

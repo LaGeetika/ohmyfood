@@ -123,7 +123,7 @@
 
 /*-----médias-queries-----*/
 
-@media screen and (min-width:768px)
+@media screen and (min-width:768px) and (max-width:991px)
 {
     .header {
         height: 80px;
@@ -345,69 +345,98 @@
     }
 
     .introduction {
+        height: 190px;
+
         &__titre {
             width: 645px;
             height: 47px;
             font-weight: 700;
-            font-size: x-large;
+            font-size: 28px;
             text-align: center;
-            border: 1px solid red;
+            margin-top: 0px;
         }
 
         &__paragraphe {
-            width: 131px;
+            width: 531px;
             height: 46px;
             font-weight: 300;
-            font-size: 2px;
-            border: 1px solid blue;
-            display: inline-block;
+            font-size: 13px;
+            text-align: center;
         }
 
         &__boutton {
             width: 218px;
             height: 50px;
-            margin-right: 411px;
-            margin-left: 811px;
-            margin-top: 50px;
+            margin-right: 611px;
+            margin-left: 611px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+
         }
     }
 
     .fonctionnement {
-        height: 120px;
+        height: 170px;
 
         &__titre {
-            padding-left: 20px;
+            margin-right: 0px;
+            margin-left: 180px;
+            margin-top: 35px;
+            margin-bottom: 10px;
         }
     }
 
     .carte-liste-conteneur {
         padding-left: 20px;
         width: 810px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 175px;
+        width: 1200px;
+        height: 100px;
 
         .carte-liste {
-            width: 237px;
-            height: 45px;
+            width: 322px;
+            height: 72px;
+            margin-right: 30px;
+            margin-left: 0px;
         }
     }
 
     .restaurants {
+        height: 620px;
+
         .restaurants__titre {
-            padding-left: 20px;
+            padding-left: 0px;
+            margin-left: 180px;
+            padding-top: 20px;
+            margin-bottom: 25px;
         }
 
         .restaurants__cartes {
-            padding-left: 20px;
-            width: 880px;
+            width: 1200px;
+            height: 555px;
+            margin-left: 180px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: space-between;
+            margin-bottom: 40px;
         }
 
         .carte-cliquable {
-            margin-right: 60px;
-            width: 41%;
-            height: 163px;
+            margin-right: 80px;
+            width: 490px;
+            height: 251px;
 
             &__nouveau {
-                left: 270px;
+                right: 10px;
+                top: 10px;
             }
         }
+    }
+
+    .footer {
+        margin-top: 0px;
     }
 }

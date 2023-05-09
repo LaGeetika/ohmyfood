@@ -139,13 +139,18 @@
   .header {
     height: 96px;
   }
+  .header__restaurant {
+    width: 100%;
+    height: 235px;
+  }
+  .header__restaurant-image {
+    object-fit: cover;
+    width: 100%;
+    height: 235px;
+  }
   .header__entete-image {
     margin-left: 255px;
     margin-bottom: 40px;
-  }
-  .header__restaurant-image {
-    margin-top: 15px;
-    height: 220px;
   }
   .information-restaurant {
     width: 75%;
@@ -181,13 +186,19 @@
   .header {
     height: 96px;
   }
+  .header__restaurant {
+    width: 100%;
+    height: 275px;
+  }
+  .header__restaurant-image {
+    object-fit: cover;
+    width: 100%;
+    height: 275px;
+    margin-top: 16px;
+  }
   .header .header__entete-image {
     margin-top: 0px;
     margin-left: 600px;
-  }
-  .header .header__restaurant-image {
-    margin-top: 16px;
-    height: 275px;
   }
   .information-restaurant {
     width: 80%;

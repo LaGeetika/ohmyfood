@@ -107,7 +107,7 @@
     &__cartes {
         width: 100%;
         height: 1080px;
-        margin-left: 20px;
+        margin-left: 0px;
     
         & .carte-cliquable {
             width: 340px;
@@ -147,10 +147,10 @@
         height: 148px;
 
         .introduction__titre {
-            width: 645px;
+            width: 100%;
             height: 47px;
             padding-top: 20px;
-            font-size: 22px;
+            font-size: 24px;
         }
 
         .introduction__paragraphe {
@@ -345,22 +345,25 @@
     }
 
     .introduction {
-        height: 190px;
+        height: 208px;
 
         &__titre {
-            width: 645px;
+            width: 100%;
             height: 47px;
             font-weight: 700;
-            font-size: 28px;
+            font-size: 40px;
+            line-height: 47px;
             text-align: center;
+            margin-bottom: 18px;
             margin-top: 0px;
         }
 
         &__paragraphe {
-            width: 531px;
+            width: 100%;
             height: 46px;
             font-weight: 300;
-            font-size: 13px;
+            font-size: 18px;
+            line-height: 21px;
             text-align: center;
         }
 

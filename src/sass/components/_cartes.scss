@@ -103,6 +103,8 @@
     background-color: #F6F6F6;
     box-shadow: 0px 4px 15px rgba(0,0,0,0.15);
     border: 1px solid #F6F6F6;
+    transition: 1s ease-in-out;
+
     &:hover {
         background-color: #FCFBFB;
         box-shadow: 0px 6px 8px gray;

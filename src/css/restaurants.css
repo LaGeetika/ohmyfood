@@ -52,6 +52,45 @@
   font-size: 18px;
 }
 
+@keyframes decalage {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes decalage-deux {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes decalage-trois {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.groupe-entrees {
+  animation: decalage 2s 3s forwards;
+  transform-origin: left;
+}
+
+.groupe-plats {
+  animation: decalage-deux 2s 4s forwards;
+  transform-origin: left;
+}
+
+.groupe-desserts {
+  animation: decalage-deux 2s 5s forwards;
+  transform-origin: left;
+}
+
 .menu-card {
   width: 100%;
   margin-bottom: 30px;

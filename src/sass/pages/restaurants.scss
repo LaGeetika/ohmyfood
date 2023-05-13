@@ -163,8 +163,30 @@
             height: 18px;
             color: #353535;
         }
+
+        &-icone {
+            position: relative;
+            top: -88px;
+            left: 300px;
+            height: 69px;
+            width: 50px;
+            display: inline-block;
+            border-radius: 0px 15px 15px 0px;
+            background-color: #99E2D0;
+            visibility: hidden;
+
+            &:hover {
+                visibility: visible;
+            }
+        }
+
+        .fa-circle-check {
+            margin: 25px 15px 25px 15px;
+                color: #FFFFFF;
+        }
     }
 }
+
 
 .information-restaurant__commande {
     width: 100%;

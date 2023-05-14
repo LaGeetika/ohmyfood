@@ -52,43 +52,28 @@
   font-size: 18px;
 }
 
-@keyframes decalage {
+@keyframes apparitionZoom {
   from {
     transform: scale(0);
   }
   to {
-    transform: scale(1);
-  }
-}
-@keyframes decalage-deux {
-  from {
-    transform: scale(0);
-  }
-  to {
-    transform: scale(1);
-  }
-}
-@keyframes decalage-trois {
-  from {
-    transform: scale(0);
-  }
-  to {
+    opacity: 1;
     transform: scale(1);
   }
 }
 .groupe-entrees {
-  animation: decalage 2s 3s forwards;
-  transform-origin: left;
+  opacity: 0;
+  animation: apparitionZoom 750ms 500ms forwards;
 }
 
 .groupe-plats {
-  animation: decalage-deux 2s 4s forwards;
-  transform-origin: left;
+  opacity: 0;
+  animation: apparitionZoom 750ms 1000ms forwards;
 }
 
 .groupe-desserts {
-  animation: decalage-deux 2s 5s forwards;
-  transform-origin: left;
+  opacity: 0;
+  animation: apparitionZoom 750ms 1600ms forwards;
 }
 
 .menu-card {
@@ -118,6 +103,20 @@
   border: 1px solid #F6F4F4;
   box-shadow: 0px 4px 15px #000000 10%;
 }
+.menu-card__plat:hover > .menu-card__plat-detail {
+  width: 237px;
+}
+.menu-card__plat:hover > .menu-card__plat-titre {
+  width: 237px;
+}
+.menu-card__plat:hover > .menu-card__plat-prix {
+  transform: translateX(-50px);
+}
+.menu-card__plat:hover > .menu-card__plat-icone {
+  cursor: pointer;
+  opacity: 1;
+  transform: translateX(-50px);
+}
 .menu-card__plat-titre {
   width: 287px;
   height: 21px;
@@ -126,6 +125,10 @@
   font-size: 18px;
   line-height: 21px;
   margin: 12px 47px 5px 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: width 300ms ease-in-out;
 }
 .menu-card__plat-detail {
   width: 287px;
@@ -136,6 +139,10 @@
   line-height: 17px;
   margin-left: 15px;
   margin-bottom: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: width 300ms ease-in-out;
 }
 .menu-card__plat-prix {
   position: relative;
@@ -148,20 +155,19 @@
   width: 18px;
   height: 18px;
   color: #353535;
+  transition: transform 300ms ease-in-out;
 }
 .menu-card__plat-icone {
   position: relative;
   top: -88px;
-  left: 300px;
+  left: 350px;
   height: 69px;
   width: 50px;
   display: inline-block;
   border-radius: 0px 15px 15px 0px;
   background-color: #99E2D0;
-  visibility: hidden;
-}
-.menu-card__plat-icone:hover {
-  visibility: visible;
+  opacity: 0;
+  transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
 }
 .menu-card__plat .fa-circle-check {
   margin: 25px 15px 25px 15px;

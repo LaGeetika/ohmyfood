@@ -6,7 +6,7 @@
     opacity: 0.9;
     inset: 0;
     z-index: 3;
-    animation: flash 2s 3s forwards;
+    animation: flash 500ms 2000ms forwards;
     transform-origin: top;
     display: flex;
     justify-content: center;
@@ -20,12 +20,9 @@
 }
 
 @keyframes flash {
-    from {
-        transform: scale(1);
-    }
-
     to {
-        transform: scale(0);
+        opacity: 0;
+        visibility: hidden;
     }
 }
 

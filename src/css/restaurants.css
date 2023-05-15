@@ -41,8 +41,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 325px;
+  width: 350px;
   height: 40px;
+  line-height: 55px;
   margin-top: 25px;
   margin-bottom: 42px;
   margin-left: 17px;
@@ -220,6 +221,9 @@
     margin-left: 93px;
     margin-top: 250px;
     border-radius: 20px 20px 0px 0px;
+  }
+  .information-restaurant__titre {
+    width: 250px;
   }
   .information-restaurant__entete {
     margin-left: 120px;

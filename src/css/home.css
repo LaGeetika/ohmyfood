@@ -12,6 +12,7 @@
   justify-content: center;
   align-items: flex-start;
 }
+
 .loader__icone {
   font-size: 100px;
   color: #FF79DA;
@@ -34,12 +35,14 @@
   height: 50px;
   background-color: #EAEAEA;
 }
+
 .recherche__icon {
   width: 12px;
   height: 16px;
   color: #353535;
   margin: 17px 17px 17px 118px;
 }
+
 .recherche__texte {
   width: 109px;
   height: 19px;
@@ -60,6 +63,7 @@
   align-items: center;
   flex-direction: column;
 }
+
 .introduction__titre {
   width: 275px;
   height: 68px;
@@ -69,6 +73,7 @@
   margin-top: 40px;
   text-align: center;
 }
+
 .introduction__paragraphe {
   width: 315px;
   height: 46px;
@@ -78,10 +83,11 @@
   text-align: center;
   color: #353535;
 }
+
 .introduction__boutton {
   margin-top: 27px;
-  width: 218px;
   height: 50px;
+  width: 218px;
   margin-bottom: 57px;
 }
 
@@ -89,6 +95,7 @@
   width: 100%;
   height: 400px;
 }
+
 .fonctionnement__titre {
   width: 275px;
   height: 31px;
@@ -105,7 +112,8 @@
   width: 100%;
   height: 305px;
 }
-.carte-liste-conteneur .carte-liste {
+
+.carte-liste {
   width: 322px;
   height: 72px;
 }
@@ -115,6 +123,7 @@
   height: 1220px;
   background-color: #F6F4F4;
 }
+
 .restaurants__titre {
   width: 275px;
   height: 31px;
@@ -126,12 +135,14 @@
   margin-left: 20px;
   padding-top: 55px;
 }
+
 .restaurants__cartes {
   width: 100%;
   height: 1080px;
   margin-left: 0px;
 }
-.restaurants__cartes .carte-cliquable {
+
+.carte-cliquable {
   width: 340px;
   height: 251px;
   display: flex;
@@ -153,39 +164,40 @@
   .recherche {
     height: 50px;
   }
-  .recherche .recherche__icon {
+  .recherche__icon {
     margin-left: 300px;
   }
   .introduction {
-    height: 148px;
+    height: 160px;
   }
-  .introduction .introduction__titre {
+  .introduction__titre {
     width: 100%;
     height: 47px;
     padding-top: 20px;
     font-size: 24px;
   }
-  .introduction .introduction__paragraphe {
+  .introduction__paragraphe {
     width: 531px;
     height: 46px;
     font-size: 10px;
     padding-top: 10px;
   }
-  .introduction .introduction__boutton {
-    width: 180px;
-    height: 40px;
+  .introduction__boutton {
+    padding: 15px;
     margin-top: 15px;
+    width: 230px;
   }
-  .introduction .introduction__boutton-paragraphe {
+  .introduction__boutton-paragraphe {
     font-size: 14px;
     line-height: 16px;
-    margin-left: 0px;
-    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
   }
   .fonctionnement {
     height: 115px;
   }
-  .fonctionnement .fonctionnement__titre {
+  .fonctionnement__titre {
     width: 275px;
     height: 31px;
     margin-left: 90px;
@@ -200,33 +212,33 @@
     width: 570px;
     height: 60px;
   }
-  .carte-liste-conteneur .carte-liste {
+  .carte-liste {
     width: 175px;
     height: 40px;
     margin-left: 8px;
     margin-right: 15px;
   }
-  .carte-liste-conteneur .carte-liste__nombre {
+  .carte-liste__nombre {
     width: 20px;
     height: 15px;
     margin-left: -5px;
     margin-top: 11px;
     font-size: 0.5em;
   }
-  .carte-liste-conteneur .carte-liste__icone {
+  .carte-liste__icone {
     font-size: 10px;
     margin-left: 15px;
     margin-right: 0px;
     margin-top: 15px;
   }
-  .carte-liste-conteneur .carte-liste__icone--violet {
+  .carte-liste__icone--violet {
     font-size: 10px;
     margin-left: 15px;
     margin-right: 10px;
     margin-top: 15px;
     width: 0px;
   }
-  .carte-liste-conteneur .carte-liste__paragraphe {
+  .carte-liste__paragraphe {
     font-size: 10px;
     margin-top: 11px;
     font-weight: bold;
@@ -235,7 +247,7 @@
   .restaurants {
     height: 370px;
   }
-  .restaurants .restaurants__titre {
+  .restaurants__titre {
     width: 268px;
     height: 28px;
     margin-left: 90px;
@@ -252,14 +264,14 @@
     margin-top: -36px;
     margin-left: 90px;
   }
-  .restaurants__cartes .carte-cliquable {
+  .carte-cliquable {
     width: 42%;
     height: 138px;
     margin-left: 0px;
     margin-right: 50px;
     margin-bottom: 0px;
   }
-  .restaurants__cartes .carte-cliquable__nouveau {
+  .carte-cliquable__nouveau {
     right: 10px;
     top: 8px;
     height: 17px;
@@ -267,29 +279,29 @@
     font-size: 12px;
     padding-top: 8px;
   }
-  .restaurants__cartes .carte-cliquable__nouveau-texte {
+  .carte-cliquable__nouveau-texte {
     width: 40px;
     height: 15px;
     font-size: 0.8em;
     top: -9px;
     left: 2px;
   }
-  .restaurants__cartes .carte-cliquable__image {
+  .carte-cliquable__image {
     height: 90px;
     width: 100%;
   }
-  .restaurants__cartes .carte-cliquable__info {
+  .carte-cliquable__info {
     width: 100%;
     height: 50px;
   }
-  .restaurants__cartes .carte-cliquable__texte {
+  .carte-cliquable__texte {
     width: 82%;
     height: 40px;
     font-size: 0.8em;
     margin-top: 5px;
     line-height: 17px;
   }
-  .restaurants__cartes .carte-cliquable__texte-titre {
+  .carte-cliquable__texte-titre {
     font-size: 1em;
     width: 160px;
     height: 18px;
@@ -297,13 +309,13 @@
     margin-bottom: 0px;
     margin-top: 8px;
   }
-  .restaurants__cartes .carte-cliquable__texte-paragraphe {
+  .carte-cliquable__texte-paragraphe {
     font-size: 0.9em;
     width: 160px;
     line-height: 6px;
     margin-bottom: 8px;
   }
-  .restaurants__cartes .carte-cliquable__icone {
+  .carte-cliquable__icone {
     margin-top: 15px;
     margin-right: 0px;
     font-size: 1.1em;
@@ -318,10 +330,10 @@
     height: 34px;
     margin: 30px 621px 32px 619px;
   }
-  .recherche .recherche__icon {
+  .recherche__icon {
     margin: 17px 7px 17px 651px;
   }
-  .recherche .recherche__texte {
+  .recherche__texte {
     margin: 15px 651px 15px 0px;
   }
   .introduction {
@@ -371,7 +383,7 @@
     width: 1200px;
     height: 100px;
   }
-  .carte-liste-conteneur .carte-liste {
+  .carte-liste {
     width: 322px;
     height: 72px;
     margin-right: 30px;
@@ -380,13 +392,13 @@
   .restaurants {
     height: 620px;
   }
-  .restaurants .restaurants__titre {
+  .restaurants__titre {
     padding-left: 0px;
     margin-left: 180px;
     padding-top: 20px;
     margin-bottom: 25px;
   }
-  .restaurants .restaurants__cartes {
+  .restaurants__cartes {
     width: 1200px;
     height: 555px;
     margin-left: 180px;
@@ -396,12 +408,12 @@
     align-content: space-between;
     margin-bottom: 40px;
   }
-  .restaurants .carte-cliquable {
+  .carte-cliquable {
     margin-right: 80px;
     width: 490px;
     height: 251px;
   }
-  .restaurants .carte-cliquable__nouveau {
+  .carte-cliquable__nouveau {
     right: 10px;
     top: 10px;
   }

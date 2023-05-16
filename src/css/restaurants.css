@@ -53,6 +53,10 @@
   font-size: 18px;
 }
 
+.coeur-icon--vide {
+  background-color: #F6F6F6;
+}
+
 @keyframes apparitionZoom {
   from {
     transform: scale(0);

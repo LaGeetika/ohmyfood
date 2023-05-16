@@ -10,12 +10,12 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-}
 
-.loader__icone {
-    font-size: 100px;
-    color: #FF79DA;
-    margin-top: 270px;
+    &__icone {
+        font-size: 100px;
+        color: #FF79DA;
+        margin-top: 270px;
+    }
 }
 
 @keyframes flash {
@@ -34,13 +34,13 @@
     width: 100%;
     height: 50px;
     background-color: #EAEAEA;
-}
 
-.recherche__icon {
-    width: 12px;
-    height: 16px;
-    color: #353535;
-    margin: 17px 17px 17px 118px;
+    &__icon {
+        width: 12px;
+        height: 16px;
+        color: #353535;
+        margin: 17px 17px 17px 118px;
+    }
 }
 
 .recherche__texte {
@@ -62,50 +62,50 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
 
-.introduction__titre {
-    width: 275px;
-    height: 68px;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28.13px;
-    margin-top: 40px;
-    text-align: center;
-}
+    &__titre {
+        width: 275px;
+        height: 68px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28.13px;
+        margin-top: 40px;
+        text-align: center;
+    }
 
-.introduction__paragraphe {
-    width: 315px;
-    height: 46px;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    color: #353535;
-}
+    &__paragraphe {
+        width: 315px;
+        height: 46px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #353535;
+    }
 
-.introduction__boutton {
-    margin-top: 27px;
-    height: 50px;
-    width: 218px;
-    margin-bottom: 57px;
+    &__boutton {
+        margin-top: 27px;
+        height: 50px;
+        width: 218px;
+        margin-bottom: 57px;
+    }
 }
 
 .fonctionnement {
     width: 100%;
     height: 400px;
-}
 
-.fonctionnement__titre {
-    width: 275px;
-    height: 31px;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    margin-top: 48px;
-    margin-left: 20px;
-    margin-right: 80px;
-    margin-bottom: 31px;
+    &__titre {
+        width: 275px;
+        height: 31px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: 48px;
+        margin-left: 20px;
+        margin-right: 80px;
+        margin-bottom: 31px;
+    }
 }
 
 .carte-liste-conteneur {
@@ -122,18 +122,18 @@
     width: 100%;
     height: 1220px;
     background-color: #F6F4F4;
-}
 
-.restaurants__titre {
-    width: 275px;
-    height: 31px;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    margin-top: 0px;
-    margin-bottom: 47px;
-    margin-left: 20px;
-    padding-top: 55px;
+    &__titre {
+        width: 275px;
+        height: 31px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: 0px;
+        margin-bottom: 47px;
+        margin-left: 20px;
+        padding-top: 55px;
+    }
 }
 
 .restaurants__cartes {
@@ -157,65 +157,65 @@
 {
     .header {
         height: 80px;
-    }
 
-    .header__image {
-        width: 200px;
-        height: 34px;
-        margin: 25px 284px 35px 284px
+        &__image {
+            width: 200px;
+            height: 34px;
+            margin: 25px 284px 35px 284px
+        }
     }
 
     .recherche {
         height: 50px;
-    }
 
-    .recherche__icon {
-        margin-left: 300px;
+        &__icon {
+            margin-left: 300px;
+        }
     }
 
     .introduction {
         height: 160px;
-    }
 
-    .introduction__titre {
-        width: 100%;
-        height: 47px;
-        padding-top: 20px;
-        font-size: 24px;
-    }
+        &__titre {
+            width: 100%;
+            height: 47px;
+            padding-top: 20px;
+            font-size: 24px;
+        }
 
-    .introduction__paragraphe {
-        width: 531px;
-        height: 46px;
-        font-size: 10px;
-        padding-top: 10px;
-    }
+        &__paragraphe {
+            width: 531px;
+            height: 46px;
+            font-size: 10px;
+            padding-top: 10px;
+        }
 
-    .introduction__boutton {
-        padding: 15px;
-        margin-top: 15px;
-        width: 230px;
-    }
+        &__boutton {
+            padding: 15px;
+            margin-top: 15px;
+            width: 230px;
 
-    .introduction__boutton-paragraphe {
-        font-size: 14px;
-        line-height: 16px;
-        text-align: center;
-        width: 100%;
-        margin: 0px;      
+            &-paragraphe {
+                font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            width: 100%;
+            margin: 0px;
+            }
+        }
     }         
 
     .fonctionnement {
         height: 115px;
-    }
 
-    .fonctionnement__titre {
-        width: 275px;
-        height: 31px;
-        margin-left: 90px;
-        margin-top: 35px;
-        font-size: 1.1em;
-        margin-bottom: 10px;
+        &__titre {
+            width: 275px;
+            height: 31px;
+            margin-left: 90px;
+            margin-top: 35px;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
     }
 
     .carte-liste-conteneur {
@@ -230,30 +230,30 @@
         width: 175px;
         height: 40px;
         margin-left: 8px;
-        margin-right: 15px;           
-    }
+        margin-right: 15px;
+        
+        &__nombre {
+            width: 20px;
+            height: 15px;
+            margin-left: -5px;
+            margin-top: 11px;
+            font-size: 0.5em;
+        }
 
-    .carte-liste__nombre {
-        width: 20px;
-        height: 15px;
-        margin-left: -5px;
-        margin-top: 11px;
-        font-size: 0.5em;
-    }
+        &__icone {
+            font-size: 10px;
+            margin-left: 15px;
+            margin-right: 0px;
+            margin-top: 15px;
 
-    .carte-liste__icone {
-        font-size: 10px;
-        margin-left: 15px;
-        margin-right: 0px;
-        margin-top: 15px;
-    }
-
-    .carte-liste__icone--violet {
-        font-size: 10px;
-        margin-left: 15px;
-        margin-right: 10px;
-        margin-top: 15px;
-        width: 0px;
+            &--violet {
+                font-size: 10px;
+                margin-left: 15px;
+                margin-right: 10px;
+                margin-top: 15px;
+                width: 0px;
+            }
+        }
     }
 
     .carte-liste__paragraphe {
@@ -265,14 +265,14 @@
 
     .restaurants {
         height: 370px;
-    }
 
-    .restaurants__titre {
-        width: 268px;
-        height: 28px;
-        margin-left: 90px;
-        padding-top: 15px;
-        font-size: 1.1em;
+        &__titre {
+            width: 268px;
+            height: 28px;
+            margin-left: 90px;
+            padding-top: 15px;
+            font-size: 1.1em;
+        }
     }
 
     .restaurants__cartes {
@@ -292,63 +292,63 @@
         margin-left: 0px;
         margin-right: 50px;
         margin-bottom: 0px;
-    }
 
-    .carte-cliquable__nouveau {
-        right: 10px;
-        top: 8px;
-        height: 17px;
-        width: 45px;
-        font-size: 12px;
-        padding-top: 8px;
-    }
+        &__nouveau {
+            right: 10px;
+            top: 8px;
+            height: 17px;
+            width: 45px;
+            font-size: 12px;
+            padding-top: 8px;
 
-    .carte-cliquable__nouveau-texte {
-        width: 40px;
-        height: 15px;
-        font-size: 0.8em;
-        top: -9px;
-        left: 2px;
-    }
+            &-texte {
+                width: 40px;
+                height: 15px;
+                font-size: 0.8em;
+                top: -9px;
+                left: 2px;
+            }
+        }
 
-    .carte-cliquable__image {
-        height: 90px;
-        width: 100%;
-    }
+        &__image {
+            height: 90px;
+            width: 100%;
+        }
 
-    .carte-cliquable__info {
-        width: 100%;
-        height: 50px;
-    }
+        &__info {
+            width: 100%;
+            height: 50px;
+        }
 
-    .carte-cliquable__texte {
-        width: 82%;
-        height: 40px;
-        font-size: 0.8em;
-        margin-top: 5px;
-        line-height: 17px;
-    }
+        &__texte {
+            width: 82%;
+            height: 40px;
+            font-size: 0.8em;
+            margin-top: 5px;
+            line-height: 17px;
 
-    .carte-cliquable__texte-titre {
-        font-size: 1em;
-        width: 160px;
-        height: 18px;
-        line-height: 8px;
-        margin-bottom: 0px;
-        margin-top: 8px;
-    }
+            &-titre {
+                font-size: 1em;
+                width: 160px;
+                height: 18px;
+                line-height: 8px;
+                margin-bottom: 0px;
+                margin-top: 8px;
+            }
 
-    .carte-cliquable__texte-paragraphe {
-        font-size: 0.9em;
-        width: 160px;
-        line-height: 6px;
-        margin-bottom: 8px;
-    }
+            &-paragraphe {
+                font-size: 0.9em;
+                width: 160px;
+                line-height: 6px;
+                margin-bottom: 8px;
+            }
+        }
 
-    .carte-cliquable__icone {
-        margin-top: 15px;
-        margin-right: 0px;
-        font-size: 1.1em;
+        &__icone {
+            margin-top: 15px;
+            margin-right: 0px;
+            font-size: 1.1em;
+        }
     }
 }
 
@@ -357,12 +357,12 @@
 {
     .header {
         height: 96px;
-    }
 
-    .header__image {
-        width: 200px;
-        height: 34px;
-        margin: 30px 621px 32px 619px;
+        &__image {
+            width: 200px;
+            height: 34px;
+            margin: 30px 621px 32px 619px;
+        }
     }
 
     .recherche__icon {
@@ -375,46 +375,46 @@
 
     .introduction {
         height: 208px;
-    }
 
-    .introduction__titre {
-        width: 100%;
-        height: 47px;
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 47px;
-        text-align: center;
-        margin-bottom: 18px;
-        margin-top: 0px;
-    }
+        &__titre {
+            width: 100%;
+            height: 47px;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 47px;
+            text-align: center;
+            margin-bottom: 18px;
+            margin-top: 0px;
+        }
 
-    .introduction__paragraphe {
-        width: 100%;
-        height: 46px;
-        font-weight: 300;
-        font-size: 18px;
-        line-height: 21px;
-        text-align: center;
-    }
+        &__paragraphe {
+            width: 100%;
+            height: 46px;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+        }
 
-    .introduction__boutton {
-        width: 218px;
-        height: 50px;
-        margin-right: 611px;
-        margin-left: 611px;
-        margin-top: 0px;
-        margin-bottom: 0px;
+        &__boutton {
+            width: 218px;
+            height: 50px;
+            margin-right: 611px;
+            margin-left: 611px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
     }
 
     .fonctionnement {
         height: 170px;
-    }
 
-    .fonctionnement__titre {
-        margin-right: 0px;
-        margin-left: 180px;
-        margin-top: 35px;
-        margin-bottom: 10px;
+        &__titre {
+            margin-right: 0px;
+            margin-left: 180px;
+            margin-top: 35px;
+            margin-bottom: 10px;
+        }
     }
 
     .carte-liste-conteneur {
@@ -436,35 +436,35 @@
 
     .restaurants {
         height: 620px;
-    }
 
-    .restaurants__titre {
-        padding-left: 0px;
-        margin-left: 180px;
-        padding-top: 20px;
-        margin-bottom: 25px;
-    }
+        &__titre {
+            padding-left: 0px;
+            margin-left: 180px;
+            padding-top: 20px;
+            margin-bottom: 25px;
+        }
 
-    .restaurants__cartes {
-        width: 1200px;
-        height: 555px;
-        margin-left: 180px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-content: space-between;
-        margin-bottom: 40px;
+        &__cartes {
+            width: 1200px;
+            height: 555px;
+            margin-left: 180px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: space-between;
+            margin-bottom: 40px;
+        }
     }
 
     .carte-cliquable {
         margin-right: 80px;
         width: 490px;
         height: 251px;
-    }
 
-    .carte-cliquable__nouveau {
-        right: 10px;
-        top: 10px;
+        &__nouveau {
+            right: 10px;
+            top: 10px;
+        }
     }
 
     .footer {

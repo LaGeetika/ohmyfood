@@ -71,17 +71,17 @@
 
 .groupe-entrees {
     opacity: 0;
-    animation: apparitionZoom 750ms 500ms forwards;
+    animation: apparitionZoom 300ms 500ms forwards;
 }
 
 .groupe-plats {
     opacity: 0;
-    animation: apparitionZoom 750ms 1000ms forwards;
+    animation: apparitionZoom 300ms 800ms forwards;
 }
 
 .groupe-desserts {
     opacity: 0;
-    animation: apparitionZoom 750ms 1600ms forwards;
+    animation: apparitionZoom 300ms 1300ms forwards;
 }
 
 .menu-card {
@@ -281,9 +281,14 @@
             &-prix {
                 left: 350px;
             }
+
+            &-icone {
+                left: 400px;
+            }
         }
     }
 }
+
 
 
 /*----------medias-queries----------*/
@@ -337,11 +342,18 @@
             width: 100%;
             margin-left: 0px;
 
+            &-icone {
+                left: 770px;
+                top: -90px;
+            }
+
             &-titre {
                 font-size: 18px;
                 line-height: 21px;
                 width: 572px;
                 height: 21px;
+                overflow: visible;
+                text-overflow: clip;
             }
 
             &-detail {
@@ -349,6 +361,8 @@
                 line-height: 17px;
                 width: 572px;
                 height: 21px;
+                overflow: visible;
+                text-overflow: clip;
             }
 
             &-prix {

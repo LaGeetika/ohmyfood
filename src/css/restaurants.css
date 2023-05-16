@@ -64,17 +64,17 @@
 }
 .groupe-entrees {
   opacity: 0;
-  animation: apparitionZoom 750ms 500ms forwards;
+  animation: apparitionZoom 300ms 500ms forwards;
 }
 
 .groupe-plats {
   opacity: 0;
-  animation: apparitionZoom 750ms 1000ms forwards;
+  animation: apparitionZoom 300ms 800ms forwards;
 }
 
 .groupe-desserts {
   opacity: 0;
-  animation: apparitionZoom 750ms 1600ms forwards;
+  animation: apparitionZoom 300ms 1300ms forwards;
 }
 
 .menu-card {
@@ -247,6 +247,9 @@
   .menu-card__plat-prix {
     left: 350px;
   }
+  .menu-card__plat-icone {
+    left: 400px;
+  }
 }
 /*----------medias-queries----------*/
 @media screen and (min-width: 992px) {
@@ -290,17 +293,25 @@
     width: 100%;
     margin-left: 0px;
   }
+  .menu-card__plat-icone {
+    left: 770px;
+    top: -90px;
+  }
   .menu-card__plat-titre {
     font-size: 18px;
     line-height: 21px;
     width: 572px;
     height: 21px;
+    overflow: visible;
+    text-overflow: clip;
   }
   .menu-card__plat-detail {
     font-size: 15px;
     line-height: 17px;
     width: 572px;
     height: 21px;
+    overflow: visible;
+    text-overflow: clip;
   }
   .menu-card__plat-prix {
     left: 730px;

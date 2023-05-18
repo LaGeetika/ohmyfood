@@ -1,8 +1,10 @@
 .header {
     width: 100%;
     height: 63px;
-    padding: 18px 0px 12px;
-    position: relative;
+    padding: 14px 0px 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 
     &__entete {
         display: flex;
@@ -11,11 +13,12 @@
 
         &-icone {
             color: #353535;
-            margin-left: 23px;
-            margin-top: 9px;
+            padding-top: 9px;
             font-size: 1.2em;
             width: 17px;
             height: 16px;
+            padding-left: 23px;
+            padding-right: 25px;
         }
 
         &-image {
@@ -24,18 +27,23 @@
             margin-left: 65px;
         }
     }
+}
 
-    &__restaurant-image {
+.header__restaurant {
+    width: 100%;
+    height: 275px;
+    position: absolute;
+
+    &-image {
         width: 100%;
         height: 275px;
     }
 }
 
 .information-restaurant {
-    margin-top: 300px;
-    border-radius: 50px 50px 0px 0px;
     position: relative;
-    top: -70px;
+    top: 220px;
+    border-radius: 50px 50px 0px 0px;
     background-color: #F6F6F6;
     width: 100%;
     border: 1px solid transparent;
@@ -221,7 +229,9 @@
 }
 
 .footer {
-    margin-top: -70px;
+    margin-top: 200px;
+    padding-top: 35px;
+    height: 195px;
 }
 
 
@@ -230,29 +240,36 @@
 @media screen and (min-width:768px) and (max-width:991px)
 {
     .header {
-        height: 96px;
+        height: 90px;
 
-        &__restaurant {
-            width: 100%;
-            height: 235px;
-
-            &-image {
-                object-fit: cover;
-                width: 100%;
-                height: 235px;
-            }
+        &__entete-icone {
+            padding-right: 200px;
+            padding-top: 15px;
         }
 
         &__entete-image {
-            margin-left: 255px;
-            margin-bottom: 40px;
+            object-fit: cover;
+            width: 200px;
+            height: 44px;
+            padding-top: 10px;
+        }
+    }
+
+    .header__restaurant {
+        width: 100%;
+        height: 235px;
+
+        &-image {
+            object-fit: cover;
+            width: 100%;
+            height: 235px;
         }
     }
 
     .information-restaurant {
         width: 75%;
         margin-left: 93px;
-        margin-top: 250px;
+        margin-top: -10px;
         border-radius: 20px 20px 0px 0px;
 
         &__titre {
@@ -291,9 +308,13 @@
             }
         }
     }
+
+    .footer {
+        margin-top: 220px;
+        height: 70px;
+        padding-top: 10px;
+    }
 }
-
-
 
 /*----------medias-queries----------*/
 
@@ -310,20 +331,25 @@
                 object-fit: cover;
                 width: 100%;
                 height: 275px;
-                margin-top: 16px;
             }
         }
 
         .header__entete-image {
-            margin-top: 0px;
+            margin-top: 10px;
             margin-left: 600px;
+            width: 200px;
+            height: 34px;
+
+            .header__entete-icone {
+                padding-top: 10px;
+            }
         }
     }
 
     .information-restaurant {
         width: 80%;
         margin-left: 145px;
-        margin-top: 300px;
+        margin-top: 20px;
         border-radius: 25px 25px 0px 0px;
 
         &__entete {
@@ -381,5 +407,11 @@
     .information-restaurant__commande {
         margin-left: 390px;
         margin-top: 35px;
+    }
+
+    .footer {
+        margin-top: 220px;
+        height: 70px;
+        padding-top: 10px;
     }
 }

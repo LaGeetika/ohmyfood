@@ -420,18 +420,16 @@
     }
 
     .carte-liste-conteneur {
-        width: 810px;
         display: flex;
         flex-direction: row;
-        width: 1200px;
+        justify-content: space-between;
         height: 100px;
     }
 
     .carte-liste {
-        width: 322px;
+        width: 29%;
         height: 72px;
-        margin-right: 24px;
-        margin-left: 10px;
+        min-width: 250px;
     }
 
     .restaurants {
@@ -449,20 +447,19 @@
         }
 
         &__cartes {
-            width: 1200px;
             height: 555px;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            align-content: space-between;
+            justify-content: space-between;
             margin-bottom: 40px;
         }
     }
 
     .carte-cliquable {
-        width: 490px;
+        width: 46%;
         height: 251px;
-        margin-right: 100px;
+        margin-right: 0px;
         margin-left: 0px;
 
         &__nouveau {

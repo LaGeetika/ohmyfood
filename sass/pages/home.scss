@@ -40,7 +40,7 @@
     white-space: nowrap;
 
     &__icon {
-        width: 12px;
+        width: 2%;
         height: 16px;
         color: #353535;
         margin-right: 17px;
@@ -48,7 +48,7 @@
 }
 
 .recherche__texte {
-    width: 109px;
+    width: 18%;
     height: 19px;
     font-weight: 500;
     font-size: 16px;
@@ -67,7 +67,7 @@
     flex-direction: column;
 
     &__titre {
-        width: 275px;
+        width: 100%;
         height: 68px;
         font-weight: 700;
         font-size: 24px;
@@ -77,7 +77,7 @@
     }
 
     &__paragraphe {
-        width: 315px;
+        width: 100%;
         height: 46px;
         font-weight: 300;
         font-size: 18px;
@@ -89,7 +89,7 @@
     &__boutton {
         margin-top: 27px;
         height: 50px;
-        width: 218px;
+        width: 60%;
         margin-bottom: 57px;
     }
 }
@@ -110,7 +110,7 @@
         font-weight: 700;
         font-size: 24px;
         line-height: 28px;
-        margin-left: 20px;
+        padding-left: 20px;
         margin-top: 48px;
         margin-bottom: 26px;
     }
@@ -122,7 +122,7 @@
 }
     
 .carte-liste {
-    width: 322px;
+    width: 80%;
     height: 72px;
 }
 
@@ -139,23 +139,22 @@
     }
 
     &__titre {
-        width: 275px;
+        width: 100%;
         height: 31px;
         font-weight: 700;
         font-size: 24px;
         line-height: 28px;
-        margin-left: 20px;
+        padding-left: 20px;
     }
 }
 
 .restaurants__cartes {
     width: 100%;
     height: 1080px;
-    margin-left: 0px;
 }
     
 .carte-cliquable {
-    width: 340px;
+    width: 91%;
     height: 251px;
     display: flex;
     flex-direction: column;
@@ -182,7 +181,7 @@
         }
 
         &__paragraphe {
-            width: 531px;
+            width: 100%;
             height: 46px;
             font-size: 10px;
             padding-top: 10px;
@@ -191,10 +190,10 @@
         &__boutton {
             padding: 15px;
             margin-top: 15px;
-            width: 250px;
+            width: 30%;
 
             &-paragraphe {
-                font-size: 14px;
+            font-size: 14px;
             line-height: 16px;
             text-align: center;
             width: 100%;
@@ -213,11 +212,10 @@
         }    
 
         &__titre {
-            width: 275px;
+            width: 100%;
             height: 31px;
             font-size: 1.1em;
             margin-bottom: 10px;
-            margin-left: 0px;
             margin-top: 20px;
         }
     }
@@ -225,18 +223,18 @@
     .carte-liste-conteneur {
         display: flex;
         flex-direction: row;
-        width: 570px;
+        width: 100%;
         height: 60px;
     }
 
     .carte-liste {
-        width: 175px;
+        width: 30%;
         height: 40px;
         margin-left: 8px;
         margin-right: 15px;
         
         &__nombre {
-            width: 20px;
+            width: 13%;
             height: 15px;
             margin-left: -5px;
             margin-top: 11px;
@@ -274,7 +272,7 @@
         }    
 
         &__titre {
-            width: 268px;
+            width: 100%;
             height: 28px;
             padding-top: 15px;
             font-size: 1.1em;
@@ -288,7 +286,7 @@
         flex-wrap: wrap;
         align-content: space-between;
         height: 315px;
-        width: 645px;
+        width: 100%;
         margin-top: 15px;
         margin-bottom: 15px;
     }
@@ -304,12 +302,12 @@
             right: 10px;
             top: 8px;
             height: 17px;
-            width: 45px;
+            width: 17%;
             font-size: 12px;
             padding-top: 8px;
 
             &-texte {
-                width: 40px;
+                width: 0%;
                 height: 15px;
                 font-size: 0.8em;
                 top: -9px;
@@ -336,7 +334,7 @@
 
             &-titre {
                 font-size: 1em;
-                width: 160px;
+                width: 100%;
                 height: 18px;
                 line-height: 8px;
                 margin-bottom: 0px;
@@ -345,7 +343,7 @@
 
             &-paragraphe {
                 font-size: 0.9em;
-                width: 160px;
+                width: 100%;
                 line-height: 6px;
                 margin-bottom: 8px;
             }
@@ -414,7 +412,6 @@
 
         &__titre {
             margin-bottom: 10px;
-            margin-left: 0px;
             margin-top: 20px;
         }
     }
